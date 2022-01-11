@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jc_obs/static/css/main.0a2bc993.css",
+    "main.js": "/jc_obs/static/js/main.f04e1843.js",
+    "index.html": "/jc_obs/index.html",
+    "main.0a2bc993.css.map": "/jc_obs/static/css/main.0a2bc993.css.map",
+    "main.f04e1843.js.map": "/jc_obs/static/js/main.f04e1843.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a2bc993.css",
+    "static/js/main.f04e1843.js"
+  ]
+}
