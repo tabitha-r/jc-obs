@@ -1,0 +1,36 @@
+.screen {
+    width: 1920px;
+    height: 1080px;
+    text-align: left;
+    position: absolute;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    margin: 100px auto auto 450px;
+    width: 400px;
+    text-align: center;
+    border-radius: 25px;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.container h1,
+.container h2 {
+    line-height: 0.8rem;
+}
+
+.serviceInfo {
+    font-size: 1.2rem;
+}
+
+.infoCross {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.celebrantsDisplay {
+    line-height: 0.7rem;
+    padding-top: 0.01rem;
+}

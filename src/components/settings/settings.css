@@ -1,0 +1,85 @@
+.settingsDialog {
+    width: 300px;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-right: 1px solid gray;
+    height: 1080px;
+    text-align: left;
+    padding: 20px;
+    overflow: scroll;
+}
+
+.current-info {
+    background-color: lightgray;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    box-shadow: 0px 2px 0 teal;
+    font-size: 1.1rem;
+    width: 80%;
+}
+
+button:hover {
+    background-color: paleturquoise;
+    transition: 0.2s linear;
+}
+
+button:active {
+    background-color: teal;
+    box-shadow: 0 0 0;
+    transform: translateY(2px);
+}
+
+.settingsDialog label {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.icon {
+    padding: 0px 10px;
+}
+
+.forms {
+    padding: 20px;
+}
+
+input {
+    border: 1px solid lightgrey;
+    padding: 5px;
+    border-radius: 25px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 80%;
+    box-shadow: -1px -1px 2px gray;
+}
+
+.addRemoveButton {
+    width: auto;
+    float: right;
+    margin: 4px;
+    font-size: 1.5rem;
+}
+
+.celebrant label {
+    line-height: 4rem;
+}
+
+.celebrant {
+    background-color: lightskyblue;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
