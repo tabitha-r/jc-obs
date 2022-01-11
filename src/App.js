@@ -2,11 +2,14 @@ import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <FontAwesomeIcon icon={faCoffee} />
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
         <p>
