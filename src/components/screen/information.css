@@ -16,8 +16,7 @@
     box-shadow: 2px 2px 2px gray;
 }
 
-.container h1,
-.container h2 {
+.container h1 {
     line-height: 0.8rem;
 }
 
@@ -31,6 +30,5 @@
 }
 
 .celebrantsDisplay {
-    line-height: 0.7rem;
     padding-top: 0.01rem;
 }
