@@ -14,8 +14,7 @@ const InfoDisplay = () => {
             return people.join(' & ');
         } else if (people.length > 2) {
             const lastPerson = people[people.length - 1];
-            const stringMaker = people;
-            stringMaker.slice(-1);
+            const stringMaker = people.slice(0,-1);
             const newString = [];
             newString.push(stringMaker.join('; '));
             newString.push('&');
